@@ -1,0 +1,12 @@
+#spring:
+#  datasource:
+#    driver-class-name:
+#    url:
+#    username:
+#    password:
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+server:
+  port: 8887
+logging:
+  config: classpath:log4j2.xml
